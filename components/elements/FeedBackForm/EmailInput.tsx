@@ -1,4 +1,4 @@
-import { IFeedbackInput } from '../../../types/feedBackForm'
+import { IFeedbackInput } from '../../../types/feedbackForm'
 import styles from '../../../styles/feedabck_form/index.module.scss'
 
 const EmailInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (

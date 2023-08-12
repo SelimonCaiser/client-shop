@@ -1,6 +1,6 @@
-import { IOption } from '@/types/common'
+import { IOption } from '../../../types/common'
 import { GroupBase, NoticeProps, components } from 'react-select'
-import spinnerStyles from '@/styles/spinner/index.module.scss'
+import spinnerStyles from '../../../styles/spinner/index.module.scss'
 
 export const NoOptionsMessage = (
   props: NoticeProps<IOption, boolean, GroupBase<IOption>>

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { IAccordion } from '@/types/common'
+import { IAccordion } from '../../../types/common'
 
 const Accordion = ({
   children,

@@ -3,24 +3,24 @@ import { MutableRefObject, useRef, useState } from 'react'
 import Select from 'react-select'
 import { useRouter } from 'next/router'
 import { toast } from 'react-toastify'
-import { $mode } from '@/context/mode'
+import { $mode } from '../../../context/mode'
 import { IOption, SelectOptionType } from '../../../types/common'
 import {
   controlStyles,
   inputStyles,
   menuStyles,
   optionStyles,
-} from '@/styles/searchInput'
+} from '../../../styles/searchInput'
 import {
   createSelectOption,
   removeClassNamesForOverlayAndBody,
   toggleClassNamesForOverlayAndBody,
-} from '@/utils/common'
-import { $searchInputZIndex, setSearchInputZIndex } from '@/context/header'
+} from '../../../utils/common'
+import { $searchInputZIndex, setSearchInputZIndex } from '../../../context/header'
 import SearchSvg from '../SearchSvg/SearchSvg'
-import { useDebounceCallback } from '@/hooks/useDebounceCallback'
-import { getPartByNameFx, searchPartsFx } from '@/app/api/boilerParts'
-import { IBoilerPart } from '@/types/boilerparts'
+import { useDebounceCallback } from '../../../hooks/useDebounceCallback'
+import { getPartByNameFx, searchPartsFx } from '../../../app/api/boilerParts'
+import { IBoilerPart } from '../../../types/boilerparts'
 import {
   NoOptionsMessage,
   NoOptionsSpinner,

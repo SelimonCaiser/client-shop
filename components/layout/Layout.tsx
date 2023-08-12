@@ -1,4 +1,4 @@
-import { ILayoutProps } from '@/types/common'
+import { ILayoutProps } from '../../types/common'
 import Header from '../modules/Header/Header'
 import Footer from '../modules/Footer/Footer'
 
