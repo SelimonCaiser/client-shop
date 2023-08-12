@@ -3,7 +3,7 @@ import { toast } from 'react-toastify'
 import { ISignUpFx, ISignInFx } from '../../types/auth'
 import api from '../axiosClient'
 import { AxiosError } from 'axios'
-import { HTTPStatus } from '@/constans'
+import { HTTPStatus } from '../../constans/index'
 
 export const singUpFx = createEffect(
   async ({ url, username, password, email }: ISignUpFx) => {
