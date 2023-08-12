@@ -1,6 +1,6 @@
 import { createEffect } from 'effector-next'
 import api from '../axiosClient'
-import { ICheckPayFx, IMakePayFx } from '@/types/order'
+import { ICheckPayFx, IMakePayFx } from '../../types/order'
 
 export const makePaymentFx = createEffect(
   async ({ url, amount, description }: IMakePayFx) => {

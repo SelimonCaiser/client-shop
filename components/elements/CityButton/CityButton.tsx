@@ -1,9 +1,9 @@
 import { useStore } from 'effector-react'
 import LocationSvg from '../LocationSvg/LocationSvg'
-import { $mode } from '@/context/mode'
-import styles from '@/styles/cityButton/index.module.scss'
-import { $userCity, setUserCity } from '@/context/user'
-import { getGeolocationFx } from '@/app/api/geolocation'
+import { $mode } from '../../../context/mode'
+import styles from '../../../styles/cityButton/index.module.scss'
+import { $userCity, setUserCity } from '../../../context/user'
+import { getGeolocationFx } from '../../../app/api/geolocation'
 import { toast } from 'react-toastify'
 import spinnerStyles from '@/styles/spinner/index.module.scss'
 
